@@ -37,9 +37,3 @@ flowchart LR
 | [NET-21](21-meterpreter-detection/README.md) | [Metasploit и обнаружение Meterpreter](21-meterpreter-detection/README.md) | `828` |
 | [NET-22](22-adaptix-detection/README.md) | [Adaptix: обнаружение сетевой активности](22-adaptix-detection/README.md) | `829` |
 | [NET-23](23-sliver-detection/README.md) | [Sliver: обнаружение HTTP-обмена](23-sliver-detection/README.md) | `830` |
-
-## Как читать разборы
-
-В каждом кейсе: цель → схема → ход работы → контрольные команды → доказательства результата → взгляд SOC → защита.
-
-Шаги описывают воспроизведение на учебных ВМ. Фактические версии и результаты собственного прогона фиксируются отдельно: [шаблон отчёта](../../templates/run-report.md).
