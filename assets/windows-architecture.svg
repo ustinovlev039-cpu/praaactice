@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img">
+<title>WINDOWS / КОНТЕКСТ И ДОВЕРИЕ</title><desc>Пользователи · домен · политики · аудит</desc>
+<rect width="1280" height="360" rx="24" fill="#091725"/>
+<path d="M0 300H1280M0 260H1280M0 220H1280" stroke="#163043" opacity=".45"/>
+<rect x="44" y="36" width="6" height="66" rx="3" fill="#77a9ff"/>
+<text x="68" y="67" fill="#f5f9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="31" font-weight="700">WINDOWS / КОНТЕКСТ И ДОВЕРИЕ</text>
+<text x="68" y="97" fill="#9cb2c7" font-family="DejaVu Sans,Arial,sans-serif" font-size="17">Пользователи · домен · политики · аудит</text>
+<path d="M469.5 222h39" stroke="#77a9ff" stroke-width="2"/><path d="m500.5 216 9 6-9 6" fill="none" stroke="#77a9ff" stroke-width="2"/>
+<rect x="224.5" y="158" width="245" height="128" rx="15" fill="#10283b" stroke="#25445b"/>
+<text x="244.5" y="188" fill="#77a9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" letter-spacing="2">01</text>
+<text x="244.5" y="223" fill="#f5f9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700">Хост</text>
+<text x="244.5" y="252" fill="#9cb2c7" font-family="DejaVu Sans,Arial,sans-serif" font-size="13">Windows / Sysmon</text>
+<path d="M762.5 222h39" stroke="#77a9ff" stroke-width="2"/><path d="m793.5 216 9 6-9 6" fill="none" stroke="#77a9ff" stroke-width="2"/>
+<rect x="517.5" y="158" width="245" height="128" rx="15" fill="#10283b" stroke="#25445b"/>
+<text x="537.5" y="188" fill="#77a9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" letter-spacing="2">02</text>
+<text x="537.5" y="223" fill="#f5f9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700">Домен</text>
+<text x="537.5" y="252" fill="#9cb2c7" font-family="DejaVu Sans,Arial,sans-serif" font-size="13">AD DS / GPO / AD CS</text>
+<rect x="810.5" y="158" width="245" height="128" rx="15" fill="#10283b" stroke="#25445b"/>
+<text x="830.5" y="188" fill="#77a9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" letter-spacing="2">03</text>
+<text x="830.5" y="223" fill="#f5f9ff" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700">Расследование</text>
+<text x="830.5" y="252" fill="#9cb2c7" font-family="DejaVu Sans,Arial,sans-serif" font-size="13">События / процессы / права</text>
+<text x="44" y="330" fill="#7892a9" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" letter-spacing="2">PT START / PERSONAL LAB NOTES</text>
+</svg>

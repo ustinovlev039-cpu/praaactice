@@ -1,0 +1,423 @@
+{
+  "title": "Blue Team Lab Notes",
+  "author": "Лев Устинов",
+  "handle": "recently_was_good",
+  "source_archive": "пт.zip",
+  "owasp_version": "2025",
+  "tracks": {
+    "network": {
+      "title": "Сети и сетевая безопасность",
+      "count": 23
+    },
+    "windows": {
+      "title": "Windows и доменная инфраструктура",
+      "count": 13
+    },
+    "web": {
+      "title": "Веб-безопасность и OWASP",
+      "count": 14
+    }
+  },
+  "labs": [
+    {
+      "id": "NET-01",
+      "title": "Статическая адресация",
+      "track": "network",
+      "path": "labs/network/01-static-addressing/README.md",
+      "source_id": 811,
+      "source_file": "tasks/811_Guided_Case_2.1_-_Статическая_адресация.md"
+    },
+    {
+      "id": "NET-02",
+      "title": "Маски подсетей и VLSM",
+      "track": "network",
+      "path": "labs/network/02-subnet-masks/README.md",
+      "source_id": 812,
+      "source_file": "tasks/812_Self-study_Case_2.2_-_Настройка_масок.md"
+    },
+    {
+      "id": "NET-03",
+      "title": "Динамическая адресация DHCP",
+      "track": "network",
+      "path": "labs/network/03-dhcp/README.md",
+      "source_id": 813,
+      "source_file": "tasks/813_Guided_Case_2.3_-_Динамическая_адресация.md"
+    },
+    {
+      "id": "NET-04",
+      "title": "Статическая маршрутизация",
+      "track": "network",
+      "path": "labs/network/04-static-routing/README.md",
+      "source_id": 814,
+      "source_file": "tasks/814_Guided_Case_2.4_-_Статическая_маршрутизация.md"
+    },
+    {
+      "id": "NET-05",
+      "title": "Динамическая маршрутизация OSPF",
+      "track": "network",
+      "path": "labs/network/05-ospf/README.md",
+      "source_id": 815,
+      "source_file": "tasks/815_Guided_Case_2.5_-_Динамическая_маршрутизация.md"
+    },
+    {
+      "id": "NET-06",
+      "title": "DNS и разрешение имён",
+      "track": "network",
+      "path": "labs/network/06-dns/README.md",
+      "source_id": 746,
+      "source_file": "tasks/746_Guided_Case_2.6_-_DNS.md"
+    },
+    {
+      "id": "NET-07",
+      "title": "VLAN и сегментация",
+      "track": "network",
+      "path": "labs/network/07-vlan/README.md",
+      "source_id": 748,
+      "source_file": "tasks/748_Guided_Case_2.7_-_VLAN.md"
+    },
+    {
+      "id": "NET-08",
+      "title": "NAT и публикация сервисов",
+      "track": "network",
+      "path": "labs/network/08-nat/README.md",
+      "source_id": 749,
+      "source_file": "tasks/749_Guided_Case_2.8_-_NAT.md"
+    },
+    {
+      "id": "NET-09",
+      "title": "OpenVPN и доступ во внутреннюю сеть",
+      "track": "network",
+      "path": "labs/network/09-openvpn/README.md",
+      "source_id": 816,
+      "source_file": "tasks/816_Guided_Case_2.9_-_OpenVPN.md"
+    },
+    {
+      "id": "NET-10",
+      "title": "3proxy и контроль проксируемого доступа",
+      "track": "network",
+      "path": "labs/network/10-3proxy/README.md",
+      "source_id": 817,
+      "source_file": "tasks/817_Guided_Case_2.10_-_3proxy.md"
+    },
+    {
+      "id": "NET-11",
+      "title": "ARP Spoofing и признаки MITM",
+      "track": "network",
+      "path": "labs/network/11-arp-spoofing/README.md",
+      "source_id": 818,
+      "source_file": "tasks/818_Guided_Case_2.11_-_ARP_Spoofing.md"
+    },
+    {
+      "id": "NET-12",
+      "title": "DHCP Starvation и Rogue DHCP",
+      "track": "network",
+      "path": "labs/network/12-rogue-dhcp/README.md",
+      "source_id": 819,
+      "source_file": "tasks/819_Self-study_Case_2.12_-_DHCP_Starvation_Rogue.md"
+    },
+    {
+      "id": "NET-13",
+      "title": "ICMP и обнаружение узлов",
+      "track": "network",
+      "path": "labs/network/13-icmp-discovery/README.md",
+      "source_id": 820,
+      "source_file": "tasks/820_Guided_Case_2.13_-_ICMP.md"
+    },
+    {
+      "id": "NET-14",
+      "title": "UDP-сканирование",
+      "track": "network",
+      "path": "labs/network/14-udp-scanning/README.md",
+      "source_id": 821,
+      "source_file": "tasks/821_Self-study_Case_2.14_-_UDP.md"
+    },
+    {
+      "id": "NET-15",
+      "title": "TCP-сканирование и состояния портов",
+      "track": "network",
+      "path": "labs/network/15-tcp-scanning/README.md",
+      "source_id": 822,
+      "source_file": "tasks/822_Self-study_Case_2.15_-_TCP.md"
+    },
+    {
+      "id": "NET-16",
+      "title": "Подбор паролей Telnet",
+      "track": "network",
+      "path": "labs/network/16-telnet-bruteforce/README.md",
+      "source_id": 823,
+      "source_file": "tasks/823_Guided_Case_2.16_-_Brute_Force_Telnet.md"
+    },
+    {
+      "id": "NET-17",
+      "title": "Password Spraying",
+      "track": "network",
+      "path": "labs/network/17-password-spraying/README.md",
+      "source_id": 824,
+      "source_file": "tasks/824_Self-study_Case_2.17_-_Password_Spraying.md"
+    },
+    {
+      "id": "NET-18",
+      "title": "Log4Shell: сетевое обнаружение",
+      "track": "network",
+      "path": "labs/network/18-log4shell-detection/README.md",
+      "source_id": 825,
+      "source_file": "tasks/825_Guided_Case_2.18_-_Log4Shell.md"
+    },
+    {
+      "id": "NET-19",
+      "title": "Telnetd Authentication Bypass",
+      "track": "network",
+      "path": "labs/network/19-telnet-auth-bypass/README.md",
+      "source_id": 826,
+      "source_file": "tasks/826_Self-study_Case_2.19_-_Telnetd_Authentication_Bypass.md"
+    },
+    {
+      "id": "NET-20",
+      "title": "ReactShell: разбор учебного кейса",
+      "track": "network",
+      "path": "labs/network/20-reactshell/README.md",
+      "source_id": 827,
+      "source_file": "tasks/827_Self-study_Case_2.20_-_ReactShell.md"
+    },
+    {
+      "id": "NET-21",
+      "title": "Metasploit и обнаружение Meterpreter",
+      "track": "network",
+      "path": "labs/network/21-meterpreter-detection/README.md",
+      "source_id": 828,
+      "source_file": "tasks/828_Guided_Case_2.21_-_Metasploit.md"
+    },
+    {
+      "id": "NET-22",
+      "title": "Adaptix: обнаружение сетевой активности",
+      "track": "network",
+      "path": "labs/network/22-adaptix-detection/README.md",
+      "source_id": 829,
+      "source_file": "tasks/829_Guided_Case_2.22_-_Adaptix.md"
+    },
+    {
+      "id": "NET-23",
+      "title": "Sliver: обнаружение HTTP-обмена",
+      "track": "network",
+      "path": "labs/network/23-sliver-detection/README.md",
+      "source_id": 830,
+      "source_file": "tasks/830_Guided_Case_2.23_-_Sliver.md"
+    },
+    {
+      "id": "WIN-01",
+      "title": "Службы Windows и Unquoted Service Path",
+      "track": "windows",
+      "path": "labs/windows/01-services/README.md",
+      "source_id": 834,
+      "source_file": "tasks/834_Guided_Case_3.1_-_Настройка_служб.md"
+    },
+    {
+      "id": "WIN-02",
+      "title": "Драйверы, DLL Hijacking и Side-Loading",
+      "track": "windows",
+      "path": "labs/windows/02-drivers-dll/README.md",
+      "source_id": 836,
+      "source_file": "tasks/836_Guided_Case_3.2_-_Драйвера.md"
+    },
+    {
+      "id": "WIN-03",
+      "title": "Пользователи, группы и разрешения NTFS/SMB",
+      "track": "windows",
+      "path": "labs/windows/03-users-permissions/README.md",
+      "source_id": 838,
+      "source_file": "tasks/838_Guided_Case_3.3_-_Пользователи_и_группы.md"
+    },
+    {
+      "id": "WIN-04",
+      "title": "Автозапуск и переменные среды",
+      "track": "windows",
+      "path": "labs/windows/04-startup-environment/README.md",
+      "source_id": 840,
+      "source_file": "tasks/840_Guided_Case_3.4_-_Автозапуск_и_переменные_среды.md"
+    },
+    {
+      "id": "WIN-05",
+      "title": "Реестр Windows и небезопасные настройки",
+      "track": "windows",
+      "path": "labs/windows/05-registry/README.md",
+      "source_id": 842,
+      "source_file": "tasks/842_Guided_Case_3.5_-_Реестр.md"
+    },
+    {
+      "id": "WIN-06",
+      "title": "NFS между Linux и Windows",
+      "track": "windows",
+      "path": "labs/windows/06-nfs/README.md",
+      "source_id": 852,
+      "source_file": "tasks/852_Guided_Case_3.6_-_NFS.md"
+    },
+    {
+      "id": "WIN-07",
+      "title": "RDP, WinRM и блокировка учётных записей",
+      "track": "windows",
+      "path": "labs/windows/07-rdp-winrm/README.md",
+      "source_id": 853,
+      "source_file": "tasks/853_Guided_Case_3.7_-_Сетевой_стек.md"
+    },
+    {
+      "id": "WIN-08",
+      "title": "Локальные политики безопасности",
+      "track": "windows",
+      "path": "labs/windows/08-local-policies/README.md",
+      "source_id": 855,
+      "source_file": "tasks/855_Guided_Case_3.8_-_LPO.md"
+    },
+    {
+      "id": "WIN-09",
+      "title": "Расширенный аудит и Sysmon",
+      "track": "windows",
+      "path": "labs/windows/09-audit-sysmon/README.md",
+      "source_id": 860,
+      "source_file": "tasks/860_Guided_Case_3.9_-_Расширенное_журналирование.md"
+    },
+    {
+      "id": "WIN-10",
+      "title": "Контроллер домена Active Directory",
+      "track": "windows",
+      "path": "labs/windows/10-active-directory/README.md",
+      "source_id": 879,
+      "source_file": "tasks/879_Guided_Case_3.10_-_DC.md"
+    },
+    {
+      "id": "WIN-11",
+      "title": "IIS, аутентификация и контекст пула",
+      "track": "windows",
+      "path": "labs/windows/11-iis/README.md",
+      "source_id": 880,
+      "source_file": "tasks/880_Guided_Case_3.11_-_IIS.md"
+    },
+    {
+      "id": "WIN-12",
+      "title": "AD CS и риск ESC1",
+      "track": "windows",
+      "path": "labs/windows/12-ad-cs/README.md",
+      "source_id": 881,
+      "source_file": "tasks/881_Guided_Case_3.12_-_AD_CS.md"
+    },
+    {
+      "id": "WIN-13",
+      "title": "Групповые политики и доверие к SYSVOL",
+      "track": "windows",
+      "path": "labs/windows/13-gpo/README.md",
+      "source_id": 883,
+      "source_file": "tasks/883_Guided_Case_3.13_-_GPO.md"
+    },
+    {
+      "id": "WEB-01",
+      "title": "Burp Suite: перехват HTTP/HTTPS",
+      "track": "web",
+      "path": "labs/web/01-burp-http/README.md",
+      "source_id": 886,
+      "source_file": "tasks/886_Guided_Case_4.1_-_Перехват_запросов_с_помощью_Burp_Suite.md"
+    },
+    {
+      "id": "WEB-02",
+      "title": "XSS: отражённый и сохранённый ввод",
+      "track": "web",
+      "path": "labs/web/02-xss/README.md",
+      "source_id": 888,
+      "source_file": "tasks/888_Guided_Case_4.2_-_Эксплуатация_XSS.md"
+    },
+    {
+      "id": "WEB-03",
+      "title": "SQL Injection",
+      "track": "web",
+      "path": "labs/web/03-sql-injection/README.md",
+      "source_id": 890,
+      "source_file": "tasks/890_Guided_Case_4.3_-_Эксплуатация_SQLI.md"
+    },
+    {
+      "id": "WEB-04",
+      "title": "IDOR и объектная авторизация",
+      "track": "web",
+      "path": "labs/web/04-idor/README.md",
+      "source_id": 892,
+      "source_file": "tasks/892_Guided_Case_4.4_-_Эксплуатация_IDOR.md"
+    },
+    {
+      "id": "WEB-05",
+      "title": "LFI: небезопасное подключение файлов",
+      "track": "web",
+      "path": "labs/web/05-lfi/README.md",
+      "source_id": 894,
+      "source_file": "tasks/894_Guided_Case_4.5_-_Эксплуатация_LFI.md"
+    },
+    {
+      "id": "WEB-06",
+      "title": "Directory Traversal",
+      "track": "web",
+      "path": "labs/web/06-directory-traversal/README.md",
+      "source_id": 896,
+      "source_file": "tasks/896_Guided_Case_4.6_-_Эксплуатация_Directory_Traversal.md"
+    },
+    {
+      "id": "WEB-07",
+      "title": "Command Injection",
+      "track": "web",
+      "path": "labs/web/07-command-injection/README.md",
+      "source_id": 898,
+      "source_file": "tasks/898_Guided_Case_4.7_-_Эксплуатация_Command_Injection.md"
+    },
+    {
+      "id": "WEB-08",
+      "title": "Code Injection",
+      "track": "web",
+      "path": "labs/web/08-code-injection/README.md",
+      "source_id": 900,
+      "source_file": "tasks/900_Guided_Case_4.8_-_Эксплуатация_Code_Injection.md"
+    },
+    {
+      "id": "WEB-09",
+      "title": "XXE и настройки XML-парсера",
+      "track": "web",
+      "path": "labs/web/09-xxe/README.md",
+      "source_id": 902,
+      "source_file": "tasks/902_Guided_Case_4.9_-_Эксплуатация_XXE.md"
+    },
+    {
+      "id": "WEB-10",
+      "title": "SSTI и граница шаблона",
+      "track": "web",
+      "path": "labs/web/10-ssti/README.md",
+      "source_id": 904,
+      "source_file": "tasks/904_Guided_Case_4.10_-_Эксплуатация_SSTI.md"
+    },
+    {
+      "id": "WEB-11",
+      "title": "Race Condition и атомарность операции",
+      "track": "web",
+      "path": "labs/web/11-race-condition/README.md",
+      "source_id": 906,
+      "source_file": "tasks/906_Guided_Case_4.11_-_Эксплуатация_Race_Condition.md"
+    },
+    {
+      "id": "WEB-12",
+      "title": "DefectDojo: учёт результатов проверок",
+      "track": "web",
+      "path": "labs/web/12-defectdojo/README.md",
+      "source_id": 908,
+      "source_file": "tasks/908_Guided_Case_4.12_-_Развертывание_DefectDojo.md"
+    },
+    {
+      "id": "WEB-13",
+      "title": "Bandit и Semgrep: SAST и импорт результатов",
+      "track": "web",
+      "path": "labs/web/13-sast/README.md",
+      "source_id": 909,
+      "source_file": "tasks/909_Guided_Case_4.13_-_Практика_по_SAST.md"
+    },
+    {
+      "id": "WEB-14",
+      "title": "WAF SafeLine: настройка и проверка блокировок",
+      "track": "web",
+      "path": "labs/web/14-waf-safeline/README.md",
+      "source_id": 911,
+      "source_file": "tasks/911_Guided_Case_4.14_-_Настройка_WAF_Safeline.md"
+    }
+  ]
+}
