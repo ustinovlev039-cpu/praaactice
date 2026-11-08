@@ -2,9 +2,15 @@
 
 # Windows и доменная инфраструктура
 
-Права, службы, аудит, Active Directory и границы доверия. В разделе **13 лабораторных** из архива PT Start.
+Права, службы, аудит, Active Directory и границы доверия. В разделе **13 лабораторных** из учебного архива.
 
-![Схема направления](../../assets/windows-architecture.svg)
+```mermaid
+flowchart LR
+    user["Пользователь"] --> client["Windows-клиент"]
+    client --> dc["Контроллер домена"]
+    dc --> roles["AD DS / GPO / AD CS"]
+    client -. "события" .-> logs["Security log / Sysmon"]
+```
 
 | Лабораторная | Тема | ID исходного кейса |
 | :-- | :-- | :-- |
